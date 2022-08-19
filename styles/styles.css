@@ -50,9 +50,10 @@ li {
 }
 
 button {
-    background-color:skyblue;
+    background-color:#3882f6;
     padding:10px;
     margin-top: 10px;
+    color:white;
 }
 
 .left {
@@ -77,11 +78,13 @@ img {
 }
 .outer {
     display:flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
 }
 
 .block {
-    width:600px;
+    width:700px;
     display:flex;
     gap: 30px;
 }
@@ -90,3 +93,48 @@ img {
     border: 2px solid black;
 }
 
+.containerthree {
+    display:flex;
+    padding:50px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 50px;
+    font-size: 30px;
+    width:700px;
+    font-style: italic;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+
+.blubox {
+    display:flex;
+    background-color: #3882f6;
+    padding: 40px;
+    color:white;  
+}
+
+.buttontwo {
+    background-color:#3882f6;
+    padding:10px;
+    margin-top: 10px;
+    color:white;
+    border: 2px solid white;
+}
+.call {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.callt {
+    width: 400px;
+    font-size: 12px;    
+}
