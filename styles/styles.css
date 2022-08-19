@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Silkscreen&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    display:flex;
+    background-color: #1F2937;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    font-size:20px;
+    font-weight:bolder;
+    color: white;
+}
+
+ul {
+    display:flex;
+    gap: 20px;
+    font-size: 13px;
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+    font-weight:lighter;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.website {
+    font-size: 50px;
+}
+
+.text ,.subtext{
+    color:white;
+    font-size:10px;
+    font-weight:lighter;
+}
+
+button {
+    background-color:skyblue;
+    padding:10px;
+}
+
+.left {
+    width: 600px;
+}
+
+img {
+    display:flex;
+    width:300px;
+}
+
+.containertwo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    padding: 40px;
+    font-size: 30px;
+    font-weight:bold;
+}
+
