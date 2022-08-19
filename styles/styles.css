@@ -52,6 +52,7 @@ li {
 button {
     background-color:skyblue;
     padding:10px;
+    margin-top: 10px;
 }
 
 .left {
@@ -73,5 +74,19 @@ img {
     padding: 40px;
     font-size: 30px;
     font-weight:bold;
+}
+.outer {
+    display:flex;
+    justify-content: space-around;
+}
+
+.block {
+    width:600px;
+    display:flex;
+    gap: 30px;
+}
+
+.Test {
+    border: 2px solid black;
 }
 
